@@ -64,3 +64,13 @@ C:\Parabjyot Singh\GraphQL_POC\GraphQLServer\obj\Debug\netcoreapp3.1\staticwebas
 C:\Parabjyot Singh\GraphQL_POC\GraphQLServer\obj\Debug\netcoreapp3.1\GraphQLServer.dll
 C:\Parabjyot Singh\GraphQL_POC\GraphQLServer\obj\Debug\netcoreapp3.1\GraphQLServer.pdb
 C:\Parabjyot Singh\GraphQL_POC\GraphQLServer\obj\Debug\netcoreapp3.1\GraphQLServer.genruntimeconfig.cache
+C:\Parabjyot Singh\GraphQL_POC\GraphQLServer\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Parabjyot Singh\GraphQL_POC\GraphQLServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Parabjyot Singh\GraphQL_POC\GraphQLServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Parabjyot Singh\GraphQL_POC\GraphQLServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Parabjyot Singh\GraphQL_POC\GraphQLServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Parabjyot Singh\GraphQL_POC\GraphQLServer\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Parabjyot Singh\GraphQL_POC\GraphQLServer\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Parabjyot Singh\GraphQL_POC\GraphQLServer\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Parabjyot Singh\GraphQL_POC\GraphQLServer\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Parabjyot Singh\GraphQL_POC\GraphQLServer\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

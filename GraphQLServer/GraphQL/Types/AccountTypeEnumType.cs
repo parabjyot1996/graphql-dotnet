@@ -1,14 +1,14 @@
-using GraphQL.Types;
-using GraphQLServer.Entities;
+    using GraphQL.Types;
+    using GraphQLServer.Entities;
 
-namespace GraphQLServer.GraphQL.Types
-{
-    public class AccountTypeEnumType : EnumerationGraphType<TypeOfAccount>
+    namespace GraphQLServer.GraphQL.Types
     {
-        public AccountTypeEnumType()
+        public class AccountTypeEnumType : EnumerationGraphType<TypeOfAccount>
         {
-            Name = "Type";
-            Description = "Enumeration for the account type object";
+            public AccountTypeEnumType()
+            {
+                Name = "Type";
+                Description = "Enumeration for the account type object";
+            }
         }
     }
-}

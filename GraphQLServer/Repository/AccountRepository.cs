@@ -73,5 +73,11 @@ namespace GraphQLServer.Repository
 
             return true;
         }
+
+        public async Task<ILookup<int, Account>> GetAccountsByOwnerIds(IEnumerable<int> ownerIds)
+        {
+            var accounts = await _context.Accounts.Where(a => ownerIds.Contains(a.OwnerId)).ToListAsync();
+            return accounts.ToLookup(x => x.OwnerId);
+        }
     }
 }

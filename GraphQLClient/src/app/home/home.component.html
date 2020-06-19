@@ -1,0 +1,20 @@
+<div class="col-md-12">
+    <div>
+        <button type="submit" class="btn btn-primary" (click)="router.navigate(['/createowner']);">Create</button>
+    </div>
+    <br/>
+    <div>
+        <table class="table table-bordered table-hover table-reponsive">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+            <tr *ngFor="let owner of owners">
+                <td>{{owner.id}}</td>
+                <td>{{owner.name}}</td>
+                <td>{{owner.address}}</td>
+            </tr>
+        </table>
+    </div>
+</div>

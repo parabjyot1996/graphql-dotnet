@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using GraphQLServer.Entities;
 
@@ -7,6 +8,8 @@ namespace GraphQLServer.Contracts
     public interface IAccountRepository
     {
         IEnumerable<Account> GetAccountByOwnerId(int ownerId);
+
+        Task<ILookup<int, Account>> GetAccountsByOwnerIds(IEnumerable<int> ownerIds);
 
         IEnumerable<Account> GetAllAccount();
 

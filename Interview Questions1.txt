@@ -1,0 +1,39 @@
+C# .Net
+1. Abstract Class
+2. Difference between Abstract class and Interface
+3. Overloading and Overriding
+4. Concept of new and virtual keyword
+5. Multiple inheritance with interface and ambiguity problem
+6. Program for reversing string 
+7. Design pattern if any implement
+8. SOLID principles
+9. Unit Testing if implemented
+10. CICD Tools (Azure Devops)
+11. Kafka
+12. Service Fabrics
+
+MVC
+1. ViewBag, ViewData, TempData in MVC
+2. Attribute Routing and Conventional Routing
+3. Data Annonations
+4. Dependency Injection
+5. Action Filters
+6. Return types in MVC
+7. Difference between get , post and put
+8. FromBody and FromURI
+
+Angular
+1. Components and Directives
+2. Commands to create component, service, run application
+3. What is modules?
+4. Different attributes in NgModule
+5. Pass data between components
+6. Deug angular application
+7. Unit testing angular application (Jasmine Karma)
+8. Pipes and its example
+9. Bootstraping of angular application
+10. Decorators
+11. Services in angular
+12. Observables and promises
+13. ngOnint vs constructor
+14 LifeCycle Hooks   

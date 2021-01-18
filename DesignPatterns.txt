@@ -1,0 +1,61 @@
+Design Patterns
+1. Creational
+	a. Singleton:
+		We need to use the Singleton Design Pattern in C# when we need to ensures that only one instance of a 
+		particular class is going to be created and then provide simple global access to that instance for the 
+		entire application.
+	b. Factory:
+		The basic principle behind the factory design pattern is that, at run time, we get an object of similar type 
+		based on the parameter we pass.
+	c. Factory Method:
+		The Factory Method Design Pattern is used, when we need to create the object 
+		(i.e. instance of the Product class) without exposing the object creation logic to the client.
+	d. Abstract Factory: 
+		In simple words we can say, the Abstract Factory is a super factory that creates other factories.
+		This Factory is also called Factory of Factories.
+	e. Builder:
+		The Builder Design Pattern builds a complex object using many simple objects and using a step by step 
+		approach.
+	f. Prototype:
+		Prototype Design Pattern gives us a way to create new objects from the existing instance of the object.
+
+2. Structural
+	a. Adapter:
+		The Adapter Design Pattern works as a bridge between two incompatible interfaces.
+		This design pattern involves a single class called adapter which is responsible for communication between 
+		two independent or incompatible interfaces.
+	b. Facade:
+		The Facade Design Pattern is used to hide the complexities of a system and provides an interface to the 
+		client using which the client can access the system.		
+	c. Decorator:
+		The Decorator Design Pattern allows us to dynamically add new functionalities to an existing object without 
+		altering or modifying its structure and this design pattern acts as a wrapper to the existing class.
+	d. Bridge:
+		Decouples an abstraction from its implementation so that the two can vary independently.
+	e. Composite:
+		The Composite Design Pattern allows us to have a tree structure and ask each node in the tree structure to 
+		perform a task.
+		That means this pattern creates a tree structure of a group of objects.	
+	f. Proxy:
+		In Proxy Design Pattern, a class represents the functionality of another class.
+	g. Flyweight:
+		The Flyweight Design Pattern is used when there is a need to create a large number of objects of almost 
+		similar nature.
+		A large number of objects consumes a large amount of memory and the Flyweight design pattern provides a 
+		solution for reducing the load on memory by sharing objects.
+3. Behavioral
+	a. Iterator:
+		The Iterator Design Pattern in C# allows sequential access of elements without exposing the inside logic.
+	b. Observer:
+		Define a one-to-many dependency between objects so that when one object changes state, all its dependents 
+		are notified and updated automatically.
+	c. Chain of Responsibility:
+		The chain of responsibility design pattern creates a chain of receiver objects for a given request.
+	d. State:
+		The State Pattern is a design pattern that allows an object to completely change its behavior depending 
+		upon its current internal state.
+	e. Mediator:
+		The Mediator Design Pattern is used to reduce the communication complexity between multiple objects.
+	f. Template:
+		The Template Method Design Pattern defines a sequence of steps of an algorithm and allows the subclasses 
+		to override the steps but not allowed to change the sequence.
